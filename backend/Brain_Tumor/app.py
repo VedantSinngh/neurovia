@@ -17,7 +17,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Load the model
-model = load_model(r"C:\Users\vedaa\OneDrive\Desktop\day-zero\new\backend\Brain_Tumor\model_brain_tumor.h5")
+model = load_model(r"C:\Users\vedaa\OneDrive\Desktop\frontend\backend\Brain_Tumor\model_brain_tumor.h5")
 
 # Define class names
 class_names = ['Glioma Tumor', 'Meningioma Tumor', 'No Tumor', 'Pituitary Tumor']

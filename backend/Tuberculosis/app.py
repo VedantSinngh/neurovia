@@ -16,7 +16,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Load the model
 # Update the path to your model file
-model = load_model(r"D:\Nivaran_2.0\Tuberculosis\tuberculosis_classifier.h5")
+model = load_model(r"C:\Users\vedaa\OneDrive\Desktop\frontend\backend\Tuberculosis\tuberculosis_classifier2.h5")
 
 # Define class names for tuberculosis dataset
 class_names = ['normal', 'tuberculosis']
@@ -77,4 +77,4 @@ def uploaded_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=3020)
+    app.run(debug=True, host='0.0.0.0', port=3021)

@@ -15,7 +15,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Load the model
-model = load_model(r"D:\Nivaran_2.0\Bone_fracture\model_bone_fracture.h5")
+model = load_model(r"C:\Users\vedaa\OneDrive\Desktop\frontend\backend\Bone_fracture\model_bone_fracture.h5")
 
 # Define class names
 class_names = ['fractured','not_fractured']
