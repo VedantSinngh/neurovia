@@ -187,7 +187,7 @@ def get_medicine_details_from_llm(basic_info):
     
     5. Side Effects (common and serious)
     
-    6. Dosage Information - Please be very specific with:
+    6. Mandatory to give Dosage Information - Please be very specific with:
        - Daily schedule (how many tablets to take in morning, afternoon, evening)
        - Whether to take before or after meals
        - Typical duration of treatment
@@ -274,7 +274,7 @@ def handle_chat_message(user_message, medicine_info):
         composition = "Unknown"
     
     chat_prompt = f"""
-    You are MedBot, an AI assistant specialized in pharmaceutical advice. 
+    You are MedBot, an AI assistant specialized in pharmaceutical advice and you should give answer related to health and medication only.
     You have information about the following medicine:
     
     - Brand Name: {brand_name}

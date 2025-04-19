@@ -1,0 +1,3 @@
+backend/Tuberculosis/tuberculosis_classifier2.h5
+backend/Brain_Tumor/model_brain_tumor.h5
+backend/Bone_fracture/model_bone_fracture.h5
